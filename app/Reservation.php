@@ -10,10 +10,10 @@ class Reservation
         private string $email,
         private string $phone,
         private string $checkin,
-        private int $days
+        private int $days,
+        private Room $room
     )
     {
-
     }
 
     /**
@@ -62,5 +62,13 @@ class Reservation
     public function getDays(): int
     {
         return $this->days;
+    }
+
+    /**
+     * @return Room
+     */
+    public function getRoom(): Room
+    {
+        return $this->room;
     }
 }

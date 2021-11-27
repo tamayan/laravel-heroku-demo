@@ -29,7 +29,10 @@ class ReservationAddRequest extends FormRequest
             'email' => 'required|email:rfc',
             'phone' => 'required|digits_between:8,11',
             'checkin' => 'required',
-            'days' => 'required'
+            'days' => 'required|integer',
+            'room' => 'required|integer',
+            'type' => 'required',
+            'count' => 'required|integer'
         ];
     }
 }

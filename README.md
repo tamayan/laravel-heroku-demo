@@ -1,5 +1,7 @@
 # laravel heroku demo
 
+version: PHP 8.0.x
+
 ## Setup
 
 ```bash
