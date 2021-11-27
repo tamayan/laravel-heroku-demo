@@ -10,12 +10,6 @@ class RoomTest extends TestCase
 {
     private const SINGLE = 'single';
 
-    private const SEMI_DOUBLE = 'semi-double';
-
-    private const DOUBLE = 'double';
-
-    private const SWEET_ROOM = 'sweet-room';
-
     /**
      * A basic feature test example.
      *
