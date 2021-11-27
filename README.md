@@ -5,7 +5,15 @@
 ```bash
 composer install
 
-.env.example .env
+cp .env.example .env
+
+cp scratch.http.example scratch.http
 
 php artisan key:generate
+```
+
+## Start
+
+```bash
+php artisan serve
 ```

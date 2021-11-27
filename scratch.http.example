@@ -1,0 +1,10 @@
+POST http://127.0.0.1:8000/api/inquiries
+Content-Type: application/x-www-form-urlencoded
+
+last_lame=田中&
+first_name=太郎&
+birthday=1994/03/11&
+titl=問い合わせタイトル&
+text=問い合わせ内容
+
+###
