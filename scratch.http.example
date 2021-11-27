@@ -9,7 +9,7 @@ Content-Type: application/json
   "checkin": "2021/11/27",
   "days": 3,
   "room": 1,
-  "type": "twin",
+  "type": "double",
   "count": 2
 }
 
