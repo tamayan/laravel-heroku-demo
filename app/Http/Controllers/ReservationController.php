@@ -48,4 +48,22 @@ class ReservationController extends Controller
             'result' => 'success'
         ]);
     }
+
+    public function getList(): JsonResponse
+    {
+        $reservation = array(
+            'id' => 1,
+            'lastName' => '丹波',
+            'firstName' => '凛',
+            'email' => 'rin.tamba@tam-bourine.co.jp',
+            'phone' => '09011112222',
+            'checkin' => '2021/11/27',
+            'days' => 3,
+            'room' => 1,
+            'type' => 'double',
+            'count' => 2
+        );
+
+        return response()->json(array($reservation));
+    }
 }

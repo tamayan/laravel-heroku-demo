@@ -22,3 +22,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('/reservations', [ReservationController::class, 'add']);
+
+Route::get('/reservations', [ReservationController::class, 'getList']);
