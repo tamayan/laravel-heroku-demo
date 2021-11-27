@@ -19,3 +19,9 @@ php artisan key:generate
 ```bash
 php artisan serve
 ```
+
+## Unit Test
+
+```bash
+vendor/bin/phpunit
+```
