@@ -40,6 +40,6 @@ class RoomTest extends TestCase
     public function test_Fail_single_limit() {
         $this->expectException(Exception::class);
         // 上限が1人なのでエラーとなる
-        new Room(self::SINGLE, 2);
+        new Room(self::SINGLE, 1);
     }
 }
